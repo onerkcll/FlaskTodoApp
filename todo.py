@@ -6,7 +6,7 @@ from sqlalchemy.engine import url
 from werkzeug.utils import redirect
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/onerk/Desktop/socradar/FLASK/todo/todo.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/user/Flask/todo/todo.db'
 db = SQLAlchemy(app)
 
 
